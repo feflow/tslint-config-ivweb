@@ -1,5 +1,6 @@
 module.exports = {
-    rule:  {
+    extends: ["tslint-react"],
+    rules:  {
         // 限制必须使用 T[] 或 Array<T> 之中的一种来定义数组的类型
         "array-type": false,
         // import 必须排序
@@ -108,17 +109,23 @@ module.exports = {
             "single",
             "jsx-double"
         ],
+        // parseInt 必须传入第二个参数
         "radix": true,
+        // 行尾必须有分号
         "semicolon": [
             true,
             "always"
         ],
+        // switch 必须要有default
         "switch-default": true,
+        // 必须使用 === 或 !==，禁止使用 == 或 !=, 允许null
         "triple-equals": [
             true,
             "allow-null-check"
         ],
+        // 变量、函数返回值、函数参数等必须要有类型定义
         "typedef": false,
+        // 类型定义的冒号前面必须没有空格，后面必须有一个空格
         "typedef-whitespace": [
             true,
             {
@@ -136,14 +143,11 @@ module.exports = {
                 "variable-declaration": "onespace"
             }
         ],
-        "use-isnan": true,
-        "variable-name": [
-            true,
-            "allow-leading-underscore",
-            "ban-keywords",
-            "check-format",
-            "allow-pascal-case"
-        ],
+        // 必须使用 isNaN(foo) 而不是 foo === NaN
+        "use-isnan": false,
+        // 限制变量命名规则
+        "variable-name": false,
+        // 限制空格的位置
         "whitespace": [
             true,
             "check-branch",
@@ -153,12 +157,19 @@ module.exports = {
             "check-type",
             "check-typecast"
         ],
-        "jsx-no-lambda": false,
+        // 必须设置类的成员的可访问性，将不需要公开的成员设为私有的，可以增强代码的可理解性，对文档输出也很友好
+        "member-access": false,
+        // 禁止引入 package.json 中不存在的模块
+        "no-implicit-dependencies": [true, 'dev'],
+        // jsx 不使用箭头函数
+        "jsx-no-lambda": true,
+        // 不可以使用ref字符串
         "jsx-no-string-ref": false,
+        // jsx中不使用boolean
         "jsx-boolean-value": [true, "never"],
         "jsx-wrap-multiline": false,
         "jsx-self-close": false,
-        "member-access": [true, "no-public"],
-        "no-implicit-dependencies": ["optional", ["app"]]
+        // jsx不实用bind
+        "jsx-no-bind": true
     }
 }
