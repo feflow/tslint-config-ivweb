@@ -1,4 +1,4 @@
-# tslint-ivweb-config
+# tslint-config-ivweb
 [![npm package](https://img.shields.io/npm/v/tslint-config-ivweb.svg?style=flat-square)](https://www.npmjs.org/package/tslint-config-ivweb)
 [![NPM downloads](http://img.shields.io/npm/dt/tslint-config-ivweb.svg?style=flat-square)](https://npmjs.org/package/tslint-config-ivweb)
 
