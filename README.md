@@ -1,4 +1,3 @@
-回调 -》闭包
 # tslint-ivweb-config
 [![npm package](https://img.shields.io/npm/v/tslint-config-ivweb.svg?style=flat-square)](https://www.npmjs.org/package/tslint-config-ivweb)
 [![NPM downloads](http://img.shields.io/npm/dt/tslint-config-ivweb.svg?style=flat-square)](https://npmjs.org/package/tslint-config-ivweb)
@@ -32,3 +31,15 @@ create `tslint.config` and copy this.
 ```
 ./node_modules/.bin/tslint ./**/*.ts
 ```
+
+### use in vscode
+
+- install tslint plugin
+- use `Cmd +` or `Ctrl +`
+- set `tslint.autoFixOnSave` as `true`
+
+### use in webstorm
+
+- open setting
+- search `tslint`
+- set `enable` as true, and chose `Search for tslint.json`
