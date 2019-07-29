@@ -14,9 +14,9 @@
     </thead>
     <tbody>
         <tr>
-             <td><a href="https://palantir.github.io/tslint/rules/array-type/">array-type</a></td>
-             <td>off</td>
-             <td>限制<strong style="color:#267fd9; font-weight:600;">必须</strong>使用 <code>T[]</code> 或 <code>Array&lt;T&gt;</code> 之中的一种来定义数组的类型</td>
+            <td><a href="https://palantir.github.io/tslint/rules/array-type/">array-type</a></td>
+            <td>off</td>
+            <td>限制<strong style="color:#267fd9; font-weight:600;">必须</strong>使用 <code>T[]</code> 或 <code>Array&lt;T&gt;</code> 之中的一种来定义数组的类型</td>
         </tr>
         <tr>
             <td><a href="https://palantir.github.io/tslint/rules/ordered-imports/">ordered-imports</a></td>
@@ -129,7 +129,6 @@
             <td><strong style="color:#db5757; font-weight:600;">禁止</strong>连续超过三行空行</td>
         </tr>
         <tr>
-
             <td><a href="https://palantir.github.io/tslint/rules/no-construct/">no-construct</a></td>
             <td>error</td>
             <td><strong style="color:#db5757; font-weight:600;">禁止</strong>使用 <code>new</code> 来生成 <code>String</code>, <code>Number</code> 或 <code>Boolean</code></td>
@@ -140,13 +139,11 @@
             <td><strong style="color:#db5757; font-weight:600;">禁止</strong>使用 <code>debugger</code></td>
         </tr>
         <tr>
-
             <td><a href="https://palantir.github.io/tslint/rules/no-duplicate-variable/">no-duplicate-variable</a></td>
             <td>error</td>
             <td><strong style="color:#db5757; font-weight:600;">禁止</strong>出现重复的变量定义或函数参数名</td>
         </tr>
         <tr>
-
             <td><a href="https://palantir.github.io/tslint/rules/no-empty-interface/">no-empty-interface</a></td>
             <td>off</td>
             <td><strong style="color:#db5757; font-weight:600;">禁止</strong>定义空的接口</td>
@@ -162,7 +159,6 @@
             <td><strong style="color:#db5757; font-weight:600;">禁止</strong>使用 <code>module</code> 来定义命名空间</td>
         </tr>
         <tr>
-
             <td><a href="https://palantir.github.io/tslint/rules/no-namespace/">no-namespace</a></td>
             <td>error</td>
             <td><strong style="color:#db5757; font-weight:600;">禁止</strong>使用 <code>namespace</code> 来定义命名空间,允许使用 declare namespace ... {} 来定义外部命名空间</td>
@@ -178,7 +174,6 @@
             <td><strong style="color:#db5757; font-weight:600;">禁止</strong>变量名与上层作用域内的定义过的变量重复</td>
         </tr>
         <tr>
-
             <td><a href="https://palantir.github.io/tslint/rules/no-string-literal/">no-string-literal</a></td>
             <td>off</td>
             <td><strong style="color:#db5757; font-weight:600;">禁止</strong>出现 <code>foo['bar']</code>，<strong style="color:#267fd9; font-weight:600;">必须</strong>写成 <code>foo.bar</code></td>
@@ -259,7 +254,6 @@
             <td><strong style="color:#267fd9; font-weight:600;">必须</strong>使用 <code>isNaN(foo)</code> 而不是 <code>foo === NaN</code></td>
         </tr>
         <tr>
-
             <td><a href="https://palantir.github.io/tslint/rules/variable-name/">variable-name</a></td>
             <td>off</td>
             <td>限制变量命名规则</td>
