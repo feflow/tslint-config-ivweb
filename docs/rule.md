@@ -274,27 +274,27 @@
             <td><strong style="color:#db5757; font-weight:600;">禁止</strong>引入 <code>package.json</code> 中不存在的模块</td>
         </tr>
         <tr>
-            <td><a href="https://palantir.github.io/tslint/rules/no-implicit-dependencies/">jsx-no-lambda</a></td>
+            <td><a href="https://github.com/palantir/tslint-react">jsx-no-lambda</a></td>
             <td>error</td>
             <td><strong style="color:#db5757; font-weight:600;">jsx中禁止使用箭头函数</strong></td>
         </tr>
         <tr>
-            <td><a href="https://palantir.github.io/tslint/rules/no-implicit-dependencies/">jsx-no-string-ref</a></td>
+            <td><a href="https://github.com/palantir/tslint-react">jsx-no-string-ref</a></td>
             <td>off</td>
             <td><strong style="color:#db5757; font-weight:600;">jsx中不可以使用ref字符串</strong></td>
         </tr>
         <tr>
-            <td><a href="https://palantir.github.io/tslint/rules/no-implicit-dependencies/">jsx-boolean-value</a></td>
+            <td><a href="https://github.com/palantir/tslint-react">jsx-boolean-value</a></td>
             <td>off</td>
             <td><strong style="color:#db5757; font-weight:600;">jsx中不可以boolean</strong></td>
         </tr>
         <tr>
-            <td><a href="https://palantir.github.io/tslint/rules/no-implicit-dependencies/">jsx-wrap-multiline</a></td>
+            <td><a href="https://github.com/palantir/tslint-react">jsx-wrap-multiline</a></td>
             <td>off</td>
             <td><strong style="color:#db5757; font-weight:600;">jsx中必须要多行</strong></td>
         </tr>
         <tr>
-            <td><a href="https://palantir.github.io/tslint/rules/no-implicit-dependencies/">jsx-no-bind</a></td>
+            <td><a href="https://github.com/palantir/tslint-react">jsx-no-bind</a></td>
             <td>off</td>
             <td><strong style="color:#db5757; font-weight:600;">jsx中不允许使用bind</strong></td>
         </tr>
