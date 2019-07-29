@@ -4,9 +4,9 @@
 * 目的是团队的代码风格统一，而不是限制开发体验
 
 ## tslint-config-ivweb 介绍
- tslint-config-ivweb是腾讯NOW直播IVWEB团队的TSLint配置。目前发布初版，目前大约有160条规则，包含可能存在的错误、最佳实践、变量、代码风格、ES6相关等5个大的规则板块。
+ tslint-config-ivweb是腾讯NOW直播IVWEB团队的TSLint配置。目前发布初版，目前大约有160条规则，包含可能存在的错误、变量、代码风格、TS相关几个大的规则板块。
 
-仓库地址：https://github.com/feflow/eslint-config-ivweb
+仓库地址：https://github.com/Stevenzwzhai/tslint-config-ivweb
 欢迎提交issue或者PR一起参与团队规则维护
 
 ## 规则说明
@@ -31,7 +31,7 @@
 }
 ```
 
-第二步：增加tslint、typescript和eslint-config-ivweb依赖
+第二步：增加tslint、typescript和tslint-config-ivweb依赖
 
 此处我们使用husky来管理所有的Hook，同之前的commit message校验。
 
