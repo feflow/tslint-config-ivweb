@@ -4,10 +4,13 @@
   "description": "TSLint shareable config for the IVWEB TypeScript style guide.",
   "main": "index.js",
   "scripts": {
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "commitmsg": "validate-commit-msg",
+    "commit": "git-cz "
   },
   "lint-staged": {
     "*.{ts,jsx}": [
+      "tslint",
       "git add"
     ]
   },
@@ -31,7 +34,9 @@
     "typescript": "^3.5.3"
   },
   "devDependencies": {
+    "commitizen": "^4.0.3",
     "husky": "^3.0.1",
-    "lint-staged": "^9.2.1"
+    "lint-staged": "^9.2.1",
+    "validate-commit-msg": "^2.14.0"
   }
 }
