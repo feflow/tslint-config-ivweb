@@ -56,14 +56,3 @@
   }
 }
 ```
-
-##    答疑互动
-
-Q： 为什么不直接使用airbnb团队的 eslint-config-airbnb？
-A： airbnb官方的规则过于庞大，有10多个规则文件。维护起来成本较高，选择基于轻量级的 eslint:recommend 基础之上定制团队ESLint规则更加简单，也便于维护。
-
-Q： 我觉得eslint-config-ivweb有些规则不太合适，怎么办？
-A： 欢迎提交issue讨论或者直接提交PR。仓库地址：https://github.com/feflow/eslint-config-ivweb
-
-Q： 为什么使用lint-staged？
-A： lint-staged只会对修改过的js文件行数进行代码规范检查，不会对所有的代码检查，更加合理和可操作。
