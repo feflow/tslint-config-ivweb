@@ -13,6 +13,12 @@
 
  [规则文档](https://github.com/Stevenzwzhai/tslint-config-ivweb/blob/master/docs/rule.md)
 
+## 参考
+
+- [tslint](https://palantir.github.io/tslint/)
+
+- [tslint-react](https://github.com/palantir/tslint-react)
+
 ## 项目接入使用
 
 基本理念： 项目代码太多，不影响历史代码。只针对有改动的代码（.ts和.tsx后缀）才进行校验。
